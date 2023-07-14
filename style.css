@@ -250,8 +250,8 @@ footer{
     font-size: 14px;
     color:#878778;
 }
-@media screen and (max-width: 575px) {
-    #main {
+@media screen and (min-width: 575px) {
+* {
       flex-direction: row;
     }
   }
